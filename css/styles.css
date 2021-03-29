@@ -1,0 +1,39 @@
+.reddish{border: 1px solid red}
+.blueish{border: 1px dashed blue;}
+.nav{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #FAFAFA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -8px;
+    padding:10px 50px 10px 50px;
+    color:#A1A1A1;
+}
+.left-nav a {
+    text-decoration: none;
+    padding-right: 10px;
+    color:#A1A1A1;
+}
+
+.left-nav a:first-child{
+    border-right: solid 1px #A1A1A1;
+    line-height: 10px;
+    font-weight: 700;
+}
+.left-nav a:last-child{
+    border: solid 1px #A1A1A1;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.right-nav{
+    text-align: right;
+}
+.right-nav a {
+    color:#A1A1A1;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.right-nav i{
+    color:#A1A1A1
+}
