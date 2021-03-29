@@ -1,5 +1,10 @@
-.reddish{border: 1px solid red}
-.blueish{border: 1px dashed blue;}
+body{
+    margin:0;
+}
+.body{
+    min-height: 100vh; 
+    display: block;
+}
 .nav{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -7,7 +12,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: -8px;
-    padding:10px 50px 10px 50px;
+    padding:15px 50px 10px 50px;
     color:#A1A1A1;
 }
 .left-nav a {
@@ -53,4 +58,34 @@
 }
 .wording-texts img{
     width: 210px;
+}
+.ocean-blue{
+    background-color: #1473E6;
+    color: #ffff;
+    padding: 50px 50px 0px 50px 
+}
+.supercharge{
+    text-align: center;
+    padding-bottom: 70px ;
+}
+.supercharge h3{
+    font-size: 22px;
+}
+.three-columns{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.three-columns h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.first-column{
+    border-right: solid 1px #FAFAFA;
+}
+.second-column{
+    border-right: solid 1px #FAFAFA;
+    padding-left:40px;
+}
+.third-column{
+    padding-left:40px;
 }
