@@ -37,3 +37,20 @@
 .right-nav i{
     color:#A1A1A1
 }
+.assets{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.colorful-images{
+    padding-top: 100px;
+    text-align: end;
+}
+.colorful-images img{
+    width:200px
+}
+.wording-texts{
+    padding-top: 165px;
+}
+.wording-texts img{
+    width: 210px;
+}
